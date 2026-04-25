@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Cá Nhân - BTLOP Buổi 2</title>
+    <!-- Modern Typography Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header & Requirement 4: Dark Mode Toggle -->
+        <header class="header">
+            <h1>Thông Tin Cá Nhân</h1>
+            <div class="controls">
+                <button id="themeToggle" class="btn icon-btn" title="Chuyển chế độ Giao diện">🌙</button>
+            </div>
+        </header>
+
+        <main class="card glass animate-fade-in-up">
+            <!-- Requirement 1: Personal Info Update Section -->
+            <section class="info-section">
+                <div class="info-header">
+                    <h2>Hồ Sơ</h2>
+                    <button id="editInfoBtn" class="btn primary-btn">Chỉnh sửa</button>
+                </div>
+                <div class="info-content">
+                    <p><strong>Họ và tên:</strong> <span id="userName" class="highlight">Nguyễn Thanh Tùng</span></p>
+                    <p><strong>MSSV:</strong> <span id="userStudentId">2287700095</span></p>
+                    <p><strong>Lớp:</strong> <span id="userClass">22DATA1</span></p>
+                </div>
+                <div class="bio">
+                    <p>Tôi <strong class="text-success">THÍCH</strong> khám phá, phân tích mã độc và khai thác lỗ hổng bảo mật chuyên sâu.</p>
+                    <p>Tôi <strong class="text-danger">KHÔNG THÍCH</strong> các cấu hình mặc định (default settings) thiếu an toàn.</p>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Requirement 2: Hobbies Section -->
+            <section class="hobbies-section">
+                <h2>Sở Thích</h2>
+                <ul id="hobbyList">
+                    <li>Nghiên cứu Gadget Chains trong Java Deserialization.</li>
+                    <li>Phân tích kỹ thuật các CVE mới (như GoAnywhere MFT).</li>
+                    <li>Thiết kế logic game kinh dị tâm lý.</li>
+                </ul>
+                <div class="add-hobby-container">
+                    <input type="text" id="newHobbyInput" placeholder="Nhập sở thích mới của bạn...">
+                    <button id="addHobbyBtn" class="btn secondary-btn">Thêm sở thích</button>
+                </div>
+                <p id="hobbyError" class="error-msg hidden">Sở thích không được để trống!</p>
+            </section>
+
+            <hr>
+
+            <!-- Requirement 3: Source Code Toggle Section -->
+            <section class="code-section">
+                <div class="code-header">
+                    <div>
+                        <h2>Mã Nguồn Của Tôi</h2>
+                        <p style="font-size: 0.9rem; margin-top: 0.2rem; color: var(--text-muted);">Trạng thái hiển thị: <span id="codeStatusText" class="text-success" style="font-weight: 600;">Đang hiện</span></p>
+                    </div>
+                    <button id="toggleCodeBtn" class="btn outline-btn">Ẩn mã nguồn</button>
+                </div>
+                <div id="codeBlock" class="code-block-container">
+<pre><code>def hello_security():
+    print("Security is not a product, but a process.")
+
+hello_security()</code></pre>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Favorite Quote Section -->
+            <section class="quote-section">
+                <blockquote>
+                    <p>"Thiên thượng thiên hạ duy ngã độc tôn"</p>
+                    <cite>— <span id="quoteAuthor">Nguyễn Thanh Tùng</span> —</cite>
+                </blockquote>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal for Requirement 1: Update Information -->
+    <div id="editModal" class="modal hidden">
+        <div class="modal-content glass">
+            <h2>Cập Nhật Thông Tin</h2>
+            <div class="form-group">
+                <label for="inputName">Họ và tên</label>
+                <input type="text" id="inputName">
+            </div>
+            <div class="form-group">
+                <label for="inputMSSV">MSSV</label>
+                <input type="text" id="inputMSSV">
+            </div>
+            <div class="form-group">
+                <label for="inputClass">Lớp</label>
+                <input type="text" id="inputClass">
+            </div>
+            <div class="modal-actions">
+                <button id="cancelEditBtn" class="btn outline-btn">Huỷ</button>
+                <button id="saveEditBtn" class="btn primary-btn">Lưu thông tin</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
