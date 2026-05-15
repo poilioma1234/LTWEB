@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Đăng ký chuyên ngành";
+}
+
+<h2>Đăng ký chuyên ngành</h2>
+
+<form method="post" asp-action="ShowKQ">
+    <div>
+        <label for="MSSV">Mã số sinh viên:</label>
+        <input type="text" id="MSSV" name="MSSV" required />
+    </div>
+    <div>
+        <label for="HoTen">Họ và tên:</label>
+        <input type="text" id="HoTen" name="HoTen" required />
+    </div>
+    <div>
+        <label for="DiemTB">Điểm trung bình:</label>
+        <input type="number" step="0.5" id="DiemTB" name="DiemTB" required />
+    </div>
+    <div>
+        <label for="ChuyenNganh">Chuyên ngành:</label>
+        <select id="ChuyenNganh" name="ChuyenNganh">
+            <option value="CNPM">CNPM</option>
+            <option value="HTTT">HTTT</option>
+            <option value="ANM">ANM</option>
+            <option value="TTNT">TTNT</option>
+            <option value="MMT">MMT</option>
+        </select>
+    </div>
+    <button type="submit">Đăng ký</button>
+</form>
+
+@section Scripts {
+    <script>
+        console.log("Hello from the Scripts section of Index view!");
+    </script>
+}

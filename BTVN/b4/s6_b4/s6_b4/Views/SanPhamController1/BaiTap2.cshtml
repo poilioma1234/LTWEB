@@ -1,0 +1,20 @@
+﻿@model s6_b4.Models.SanPhamViewModule
+
+@{
+    ViewData["Title"] = "Bài tập 2 - Thông tin sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2>Thông tin sản phẩm</h2>
+    <hr />
+
+    <div class="card" style="width: 18rem;">
+        <img src="~/images/@Model.AnhMoTa" class="card-img-top" alt="@Model.TenSanPham">
+        <div class="card-body">
+            <h5 class="card-title">@Model.TenSanPham</h5>
+            <p class="card-text text-danger">
+                <strong>Giá bán: </strong> @Model.GiaBan.ToString("#,##0") VNĐ
+            </p>
+        </div>
+    </div>
+</div>
