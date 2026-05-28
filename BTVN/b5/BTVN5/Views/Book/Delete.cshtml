@@ -1,0 +1,42 @@
+﻿@model BTVN5.Models.Book
+
+@{
+    ViewData["Title"] = "Xóa sách";
+}
+
+<h2>Xóa sách</h2>
+
+<div class="alert alert-danger">
+    Bạn có chắc chắn muốn xóa sách này không?
+</div>
+
+<div class="card mb-3">
+    <div class="card-header fw-bold">
+        @Model.Title
+    </div>
+
+    <div class="card-body">
+        <p><strong>Tác giả:</strong> @Model.Author</p>
+        <p><strong>Giá:</strong> @String.Format("{0:N0} VNĐ", Model.Price)</p>
+        <p><strong>Chủ đề:</strong> @Model.Category?.CategoryName</p>
+
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img src="~/Content/ImageBooks/@Model.Image"
+                 alt="@Model.Title"
+                 style="width: 120px; height: 180px; object-fit: cover;" />
+        }
+    </div>
+</div>
+
+<form asp-controller="Book" asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <button type="submit" class="btn btn-danger">
+        Xóa
+    </button>
+
+    <a asp-controller="Book" asp-action="Index" class="btn btn-secondary">
+        Hủy
+    </a>
+</form>

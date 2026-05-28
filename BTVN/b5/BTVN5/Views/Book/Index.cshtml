@@ -1,0 +1,82 @@
+﻿@model List<BTVN5.Models.Book>
+
+@{
+    ViewData["Title"] = "Danh sách sách";
+    List<BTVN5.Models.Category> categories = ViewBag.Categories;
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <h2>Chủ đề</h2>
+
+        <ul>
+            @foreach (var category in categories)
+            {
+                <li>
+                    <a asp-controller="Book" asp-action="Index" asp-route-categoryId="@category.CategoryId">
+                        @category.CategoryName (@category.Books.Count)
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="col-md-10">
+        <a asp-controller="Book" asp-action="Create" class="btn btn-link fs-4 mb-3">
+            Thêm mới
+        </a>
+
+        <div class="row">
+            @foreach (var book in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header fw-bold">
+                            @book.Title
+
+                            <a asp-controller="Book"
+                               asp-action="Edit"
+                               asp-route-id="@book.Id"
+                               class="float-end">
+                                Edit
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <p>
+                                <strong>Tác giả:</strong> @book.Author
+                            </p>
+
+                            <p>
+                                <strong>Thể loại:</strong> @book.Category?.CategoryName
+                            </p>
+
+                            @if (!string.IsNullOrEmpty(book.Image))
+                            {
+                                <img src="~/Content/ImageBooks/@book.Image"
+                                     alt="@book.Title"
+                                     style="width: 120px; height: 180px; object-fit: cover;" />
+                            }
+                        </div>
+
+                        <div class="card-footer text-end">
+                            <a asp-controller="Book"
+                               asp-action="Details"
+                               asp-route-id="@book.Id"
+                               class="btn btn-outline-secondary btn-sm">
+                                Chi tiết
+                            </a>
+
+                            <a asp-controller="Book"
+                               asp-action="Delete"
+                               asp-route-id="@book.Id"
+                               class="btn btn-success btn-sm">
+                                Xóa
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

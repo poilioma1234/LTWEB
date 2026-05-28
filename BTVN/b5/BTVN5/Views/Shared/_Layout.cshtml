@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - BookDB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" asp-controller="Book" asp-action="Index">Trang Chủ</a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#">Đăng Ký</a>
+                <a class="nav-link" href="#">Đăng nhập</a>
+                <a class="nav-link" href="#">Giỏ hàng</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-4 mb-3">
+        © 2023 - Lập trình Web
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

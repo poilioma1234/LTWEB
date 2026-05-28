@@ -1,0 +1,145 @@
+﻿@model BTVN5.Models.Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+    List<BTVN5.Models.Category> categories = ViewBag.Categories;
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <h2 class="mb-3">Chủ đề</h2>
+
+        <ul class="category-list">
+            @foreach (var category in categories)
+            {
+                <li>
+                    <a asp-controller="Book"
+                       asp-action="Index"
+                       asp-route-categoryId="@category.CategoryId">
+                        @category.CategoryName
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <div class="col-md-10">
+        <div class="book-detail-wrapper">
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <div class="book-image-box">
+                        @if (!string.IsNullOrEmpty(Model.Image))
+                        {
+                            <img src="~/Content/ImageBooks/@Model.Image"
+                                 alt="@Model.Title"
+                                 class="book-detail-image" />
+                        }
+                        else
+                        {
+                            <div class="no-image">Không có ảnh</div>
+                        }
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <h2 class="book-title">
+                        @Model.Title
+                    </h2>
+
+                    <div class="book-meta row">
+                        <div class="col-md-6">
+                            <p>
+                                Nhà cung cấp:
+                                <strong>NXB Trẻ</strong>
+                            </p>
+
+                            <p>
+                                Nhà xuất bản:
+                                <strong>NXB Trẻ</strong>
+                            </p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p>
+                                Tác giả:
+                                <strong>@Model.Author</strong>
+                            </p>
+
+                            <p>
+                                Hình thức bìa:
+                                <strong>Bìa Mềm</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rating-box">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">(80 đánh giá)</span>
+                        <span class="sold-text">| Đã bán 19.8k</span>
+                    </div>
+
+                    <div class="price-box">
+                        @String.Format("{0:N0} đ", Model.Price)
+                    </div>
+
+                    <div class="delivery-box">
+                        <div>
+                            <strong>Thời gian giao hàng</strong>
+                            <span>Giao hàng đến</span>
+                            <a href="#">Thay đổi</a>
+                        </div>
+
+                        <div>
+                            <strong>Chính sách đổi trả</strong>
+                            <span>Đổi trả sản phẩm trong 30 ngày</span>
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+
+                    <div class="quantity-box">
+                        <span>Số lượng:</span>
+
+                        <div class="quantity-control">
+                            <button type="button">−</button>
+                            <input type="text" value="1" readonly />
+                            <button type="button">+</button>
+                        </div>
+                    </div>
+
+                    <div class="action-box">
+                        <button type="button" class="btn-add-cart">
+                            🛒 Thêm vào giỏ hàng
+                        </button>
+
+                        <button type="button" class="btn-buy-now">
+                            Mua ngay
+                        </button>
+                    </div>
+
+                    <div class="mt-3">
+                        <a asp-controller="Book"
+                           asp-action="Index"
+                           class="btn btn-secondary">
+                            Quay lại
+                        </a>
+
+                        <a asp-controller="Book"
+                           asp-action="Edit"
+                           asp-route-id="@Model.Id"
+                           class="btn btn-warning">
+                            Sửa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-description-box mt-4">
+            <h3>Mô tả sản phẩm</h3>
+
+            <p>
+                @Model.Description
+            </p>
+        </div>
+    </div>
+</div>

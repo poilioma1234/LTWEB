@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\migrations\\20260528163549_khoi_tao_book_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:migrations\\20260528163549_khoi_tao_book_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\views\\grade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:views\\grade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\migrations\\20260528161915_them du lieu mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:migrations\\20260528161915_them du lieu mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\migrations\\20260528161740_khoi_tao_bang_student_va_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:migrations\\20260528161740_khoi_tao_bang_student_va_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\gared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\gared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btvn\\b5\\btvn5\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1948724-FB25-4381-A313-B5AC523664D6}|BTVN5.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Delete.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Book\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:41:42.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:41:17.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:40:57.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Details.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Details.cshtml",
+              "RelativeToolTip": "Views\\Book\\Details.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwJAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:40:38.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:40:11.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAowLMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:39:38.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:39:16.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260528163623_Them_Du_Lieu_Mau_BookDB.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs",
+              "RelativeToolTip": "Migrations\\20260528163623_Them_Du_Lieu_Mau_BookDB.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwGcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:36:23.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:14:21.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:35:15.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAALEAAAAAAAAAAAAUwMwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-28T16:49:55.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260528163549_Khoi_Tao_Book_Category.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528163549_Khoi_Tao_Book_Category.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260528163549_Khoi_Tao_Book_Category.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528163549_Khoi_Tao_Book_Category.cs",
+              "RelativeToolTip": "Migrations\\20260528163549_Khoi_Tao_Book_Category.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:35:49.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:35:01.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Grade\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Grade\\Index.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Views\\Grade\\Index.cshtml",
+              "RelativeToolTip": "Views\\Grade\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T16:32:11.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GradeController.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Controllers\\GradeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GradeController.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Controllers\\GradeController.cs",
+              "RelativeToolTip": "Controllers\\GradeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:23:36.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260528161915_Them Du Lieu Mau.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528161915_Them Du Lieu Mau.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260528161915_Them Du Lieu Mau.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528161915_Them Du Lieu Mau.cs",
+              "RelativeToolTip": "Migrations\\20260528161915_Them Du Lieu Mau.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:19:15.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260528161740_Khoi_Tao_Bang_Student_Va_Student.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528161740_Khoi_Tao_Bang_Student_Va_Student.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260528161740_Khoi_Tao_Bang_Student_Va_Student.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Migrations\\20260528161740_Khoi_Tao_Bang_Student_Va_Student.cs",
+              "RelativeToolTip": "Migrations\\20260528161740_Khoi_Tao_Bang_Student_Va_Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:17:40.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-28T16:16:05.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:13:47.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:12:52.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Gared.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Gared.cs",
+              "RelativeDocumentMoniker": "Models\\Gared.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\Gared.cs",
+              "RelativeToolTip": "Models\\Gared.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:12:37.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTVN\\b5\\BTVN5\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T16:12:14.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
