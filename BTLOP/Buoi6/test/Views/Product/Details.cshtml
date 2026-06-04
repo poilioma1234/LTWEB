@@ -1,0 +1,61 @@
+@model test.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    var oldPrice = Model.Price * 1.12m;
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 p-lg-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small">
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-action="Index">Sản phẩm</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
+        </ol>
+    </nav>
+
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <div class="border rounded-3 bg-light overflow-hidden">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" class="img-fluid w-100 product-image" alt="@Model.Name" />
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-7">
+            <span class="badge text-bg-danger mb-2">@Model.Category?.Name</span>
+            <h1 class="h3 fw-bold">@Model.Name</h1>
+
+            <div class="d-flex align-items-end gap-3 my-3">
+                <div class="display-6 fw-bold text-danger">@Model.Price.ToString("N0")đ</div>
+                <div class="text-secondary text-decoration-line-through">@oldPrice.ToString("N0")đ</div>
+            </div>
+
+            <div class="alert alert-danger">
+                <strong>Khuyến mãi:</strong> Bảo hành 1 đổi 1 trong 90 ngày, hỗ trợ phần mềm trọn đời máy.
+            </div>
+
+            <p class="text-secondary">@Model.Description</p>
+
+            <dl class="row small">
+                <dt class="col-sm-3">Danh mục</dt>
+                <dd class="col-sm-9">@Model.Category?.Name</dd>
+                <dt class="col-sm-3">Người đăng</dt>
+                <dd class="col-sm-9">@(Model.Owner?.UserName ?? "QLBanHang")</dd>
+            </dl>
+
+            <div class="d-grid d-sm-flex gap-2 mt-4">
+                <a asp-action="Index" asp-route-categoryId="@Model.CategoryId" class="btn btn-danger">
+                    <i class="bi bi-grid"></i>
+                    Xem cùng danh mục
+                </a>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i>
+                    Trở lại
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

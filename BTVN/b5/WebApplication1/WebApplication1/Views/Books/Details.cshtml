@@ -1,0 +1,40 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+    var imageName = string.IsNullOrWhiteSpace(Model.Image) ? "default-book.png" : Model.Image;
+}
+
+<section class="book-detail">
+    <div class="detail-cover">
+        <img src="@Url.Content($"~/Content/ImageBooks/{imageName}")" alt="@Model.Title" />
+    </div>
+    <div class="detail-info">
+        <h2>@Model.Title</h2>
+        <div class="detail-meta">
+            <span>Nhà cung cấp: <strong>NXB Trẻ</strong></span>
+            <span>Tác giả: <strong>@Model.Author</strong></span>
+            <span>Thể loại: <strong>@Model.Category?.CategoryName</strong></span>
+        </div>
+        <div class="rating">★★★★★ <span>(79 đánh giá)</span></div>
+        <div class="detail-price">@Model.Price.ToString("N0") đ</div>
+        <p class="detail-description">@Model.Description</p>
+        <div class="detail-quantity">
+            <strong>Số lượng:</strong>
+            <div class="quantity-box">
+                <button type="button">-</button>
+                <span>1</span>
+                <button type="button">+</button>
+            </div>
+        </div>
+        <div class="detail-actions">
+            <button type="button" class="btn btn-outline-danger">Thêm vào giỏ hàng</button>
+            <button type="button" class="btn btn-danger">Mua ngay</button>
+        </div>
+    </div>
+</section>
+
+<div class="mt-4">
+    <a class="btn btn-outline-secondary" asp-action="Index">Quay lại</a>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Sửa</a>
+</div>

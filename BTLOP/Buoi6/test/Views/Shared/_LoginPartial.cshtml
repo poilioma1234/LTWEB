@@ -1,0 +1,48 @@
+@using Microsoft.AspNetCore.Identity
+@using test.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav align-items-lg-center gap-lg-1">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white d-flex align-items-center gap-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+            @User.Identity?.Name
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><span class="dropdown-item-text small text-secondary">Xin chào, @User.Identity?.Name</span></li>
+            <li><hr class="dropdown-divider" /></li>
+            @if (User.IsInRole("Member"))
+            {
+                <li><a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="MyProducts">Sản phẩm của tôi</a></li>
+            }
+            @if (User.IsInRole("Admin"))
+            {
+                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Home" asp-action="Index">Trang quản trị</a></li>
+            }
+            <li>
+                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button type="submit" class="dropdown-item">Đăng xuất</button>
+                </form>
+            </li>
+        </ul>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-white d-flex align-items-center gap-1" asp-area="Identity" asp-page="/Account/Register">
+            <i class="bi bi-person-plus"></i>
+            Đăng ký
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-light btn-sm fw-semibold text-danger" asp-area="Identity" asp-page="/Account/Login">
+            <i class="bi bi-box-arrow-in-right"></i>
+            Đăng nhập
+        </a>
+    </li>
+}
+</ul>

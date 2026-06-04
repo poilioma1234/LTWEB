@@ -1,0 +1,19 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Thêm sách";
+}
+
+<h2 class="page-title">Thêm mới sách</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post" class="book-form">
+    <partial name="_BookForm" model="Model" />
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a class="btn btn-outline-secondary" asp-action="Index">Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

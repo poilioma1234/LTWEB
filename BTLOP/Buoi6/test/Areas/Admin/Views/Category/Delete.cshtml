@@ -1,0 +1,23 @@
+@model test.Models.Category
+
+@{
+    ViewData["Title"] = "Xóa category";
+}
+
+<h1>Xóa category</h1>
+<div class="alert alert-warning">
+    Khi xác nhận xóa, tất cả product thuộc category này cũng sẽ bị xóa.
+</div>
+
+<dl class="row">
+    <dt class="col-sm-2">Tên category</dt>
+    <dd class="col-sm-10">@Model.Name</dd>
+    <dt class="col-sm-2">Số product sẽ xóa</dt>
+    <dd class="col-sm-10">@(Model.Products?.Count ?? 0)</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa category và product liên quan</button>
+    <a asp-action="Index" class="btn btn-secondary">Trở lại</a>
+</form>

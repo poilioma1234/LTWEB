@@ -1,0 +1,39 @@
+@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Danh sách sách";
+}
+
+<div class="d-flex align-items-center justify-content-between mb-3">
+    <h2 class="page-title">Danh sách sách</h2>
+    <a class="btn btn-primary" asp-action="Create">Thêm mới</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Chưa có sách nào trong chủ đề này.</div>
+}
+else
+{
+    <div class="book-grid">
+        @foreach (var item in Model)
+        {
+            var imageName = string.IsNullOrWhiteSpace(item.Image) ? "default-book.png" : item.Image;
+            <article class="book-card">
+                <div class="book-card-header">
+                    <strong>@item.Title</strong>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                </div>
+                <div class="book-card-body">
+                    <p><strong>Tác giả:</strong> @item.Author</p>
+                    <p><strong>Thể loại:</strong> @item.Category?.CategoryName</p>
+                    <img class="book-cover" src="@Url.Content($"~/Content/ImageBooks/{imageName}")" alt="@item.Title" />
+                </div>
+                <div class="book-card-footer">
+                    <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+                    <a class="btn btn-success" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                </div>
+            </article>
+        }
+    </div>
+}

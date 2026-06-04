@@ -1,0 +1,92 @@
+@model test.Models.AdminUserEditViewModel
+
+@{
+    ViewData["Title"] = "Sửa user";
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 mb-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-2">
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-action="Index">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sửa</li>
+        </ol>
+    </nav>
+    <h1 class="h3 fw-bold mb-0">Sửa user và phân quyền</h1>
+</div>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+    <div class="row g-3">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header bg-white fw-bold">Thông tin tài khoản</div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="UserName" class="form-label fw-semibold"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Email" class="form-label fw-semibold"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="FullName" class="form-label fw-semibold"></label>
+                            <input asp-for="FullName" class="form-control" />
+                            <span asp-validation-for="FullName" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Address" class="form-label fw-semibold"></label>
+                            <input asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger small"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm mb-3">
+                <div class="card-header bg-white fw-bold">Role và mật khẩu</div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="RoleName" class="form-label fw-semibold"></label>
+                        <select asp-for="RoleName" asp-items="ViewBag.Roles" class="form-select"></select>
+                        <span asp-validation-for="RoleName" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-0">
+                        <label asp-for="NewPassword" class="form-label fw-semibold"></label>
+                        <input asp-for="NewPassword" class="form-control" placeholder="Bỏ trống nếu không đổi mật khẩu" />
+                        <span asp-validation-for="NewPassword" class="text-danger small"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-body d-grid gap-2">
+                    <button type="submit" class="btn btn-danger btn-lg">
+                        <i class="bi bi-save"></i>
+                        Lưu user
+                    </button>
+                    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-secondary">
+                        <i class="bi bi-eye"></i>
+                        Xem chi tiết
+                    </a>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i>
+                        Trở lại danh sách
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

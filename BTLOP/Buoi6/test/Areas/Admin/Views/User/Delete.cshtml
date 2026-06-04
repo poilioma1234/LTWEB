@@ -1,0 +1,69 @@
+@model test.Models.AdminUserListItemViewModel
+
+@{
+    ViewData["Title"] = "Xóa user";
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 mb-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-2">
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-action="Index">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Xóa</li>
+        </ol>
+    </nav>
+    <h1 class="h3 fw-bold mb-0">Xóa user</h1>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-8">
+        <div class="card border-danger shadow-sm">
+            <div class="card-header bg-danger text-white fw-bold">
+                <i class="bi bi-exclamation-triangle"></i>
+                Xác nhận xóa user
+            </div>
+            <div class="card-body">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <div class="d-flex align-items-center gap-3 mb-3">
+                    <div class="admin-avatar admin-avatar-lg bg-danger text-white">
+                        @(string.IsNullOrEmpty(Model.UserName) ? "U" : Model.UserName[0].ToString().ToUpper())
+                    </div>
+                    <div>
+                        <h2 class="h5 fw-bold mb-1">@Model.UserName</h2>
+                        <div class="text-secondary">@Model.Email</div>
+                        <span class="badge text-bg-danger mt-2">@Model.Roles</span>
+                    </div>
+                </div>
+                <dl class="row mb-0">
+                    <dt class="col-sm-3">Họ tên</dt>
+                    <dd class="col-sm-9">@Model.FullName</dd>
+                    <dt class="col-sm-3">Địa chỉ</dt>
+                    <dd class="col-sm-9">@Model.Address</dd>
+                    <dt class="col-sm-3">Product</dt>
+                    <dd class="col-sm-9">@Model.ProductCount</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <div class="alert alert-warning">
+                    Khi xóa user, các product của user sẽ được giữ lại nhưng không còn gắn chủ sở hữu.
+                </div>
+                <form asp-action="Delete" class="d-grid gap-2">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger btn-lg">
+                        <i class="bi bi-trash"></i>
+                        Xóa user
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i>
+                        Hủy và trở lại
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

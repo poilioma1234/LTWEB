@@ -1,0 +1,25 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Xóa sách";
+    var imageName = string.IsNullOrWhiteSpace(Model.Image) ? "default-book.png" : Model.Image;
+}
+
+<h2 class="page-title">Xóa sách</h2>
+<div class="alert alert-warning">Bạn có chắc muốn xóa cuốn sách này?</div>
+
+<div class="delete-preview">
+    <img src="@Url.Content($"~/Content/ImageBooks/{imageName}")" alt="@Model.Title" />
+    <div>
+        <h3>@Model.Title</h3>
+        <p><strong>Tác giả:</strong> @Model.Author</p>
+        <p><strong>Thể loại:</strong> @Model.Category?.CategoryName</p>
+        <p><strong>Giá bán:</strong> @Model.Price.ToString("N0") VND</p>
+    </div>
+</div>
+
+<form asp-action="Delete" method="post" class="form-actions mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a class="btn btn-outline-secondary" asp-action="Index">Hủy</a>
+</form>

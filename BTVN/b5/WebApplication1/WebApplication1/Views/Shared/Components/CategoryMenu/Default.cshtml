@@ -1,0 +1,16 @@
+@model IEnumerable<CategorySummary>
+
+<div class="category-menu">
+    <h1>Chủ đề</h1>
+    <ul>
+        @foreach (var category in Model)
+        {
+            var isActive = ViewBag.SelectedCategoryId == category.CategoryId;
+            <li>
+                <a class="@(isActive ? "active" : "")" asp-controller="Books" asp-action="Index" asp-route-categoryId="@category.CategoryId">
+                    @category.CategoryName (@category.BookCount)
+                </a>
+            </li>
+        }
+    </ul>
+</div>

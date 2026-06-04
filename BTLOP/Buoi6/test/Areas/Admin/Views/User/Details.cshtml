@@ -1,0 +1,65 @@
+@model test.Models.AdminUserListItemViewModel
+
+@{
+    ViewData["Title"] = "Chi tiết user";
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 mb-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-2">
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-action="Index">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Chi tiết</li>
+        </ol>
+    </nav>
+    <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+        <h1 class="h3 fw-bold mb-0">Chi tiết user</h1>
+        <div class="d-flex gap-2">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-danger">
+                <i class="bi bi-pencil-square"></i>
+                Sửa/Role
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i>
+                Trở lại
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-4">
+        <div class="card border-0 shadow-sm h-100 text-center">
+            <div class="card-body">
+                <div class="admin-avatar admin-avatar-lg bg-danger text-white mx-auto mb-3">
+                    @(string.IsNullOrEmpty(Model.UserName) ? "U" : Model.UserName[0].ToString().ToUpper())
+                </div>
+                <h2 class="h4 fw-bold">@Model.UserName</h2>
+                <p class="text-secondary">@Model.Email</p>
+                <span class="badge text-bg-danger">@Model.Roles</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-header bg-white fw-bold">Thông tin tài khoản</div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-3">UserName</dt>
+                    <dd class="col-sm-9">@Model.UserName</dd>
+                    <dt class="col-sm-3">Email</dt>
+                    <dd class="col-sm-9">@Model.Email</dd>
+                    <dt class="col-sm-3">Họ tên</dt>
+                    <dd class="col-sm-9">@Model.FullName</dd>
+                    <dt class="col-sm-3">Địa chỉ</dt>
+                    <dd class="col-sm-9">@Model.Address</dd>
+                    <dt class="col-sm-3">Role</dt>
+                    <dd class="col-sm-9"><span class="badge text-bg-danger">@Model.Roles</span></dd>
+                    <dt class="col-sm-3">Số product</dt>
+                    <dd class="col-sm-9">@Model.ProductCount</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

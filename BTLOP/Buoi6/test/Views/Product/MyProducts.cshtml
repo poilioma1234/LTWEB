@@ -1,0 +1,75 @@
+@model IEnumerable<test.Models.Product>
+
+@{
+    ViewData["Title"] = "Sản phẩm của tôi";
+    var products = Model.ToList();
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 mb-3">
+    <div class="row g-3 align-items-center">
+        <div class="col-lg">
+            <span class="badge text-bg-danger mb-2">Khu vực Member</span>
+            <h1 class="h3 fw-bold mb-1">Sản phẩm của tôi</h1>
+            <p class="text-secondary mb-0">Member có thể thêm, sửa, xóa sản phẩm thuộc tài khoản của mình.</p>
+        </div>
+        <div class="col-lg-auto">
+            <a asp-action="Create" class="btn btn-danger">
+                <i class="bi bi-plus-circle"></i>
+                Thêm sản phẩm
+            </a>
+        </div>
+    </div>
+</div>
+
+@if (!products.Any())
+{
+    <div class="bg-white rounded-3 shadow-sm p-5 text-center">
+        <i class="bi bi-box-seam display-5 text-danger"></i>
+        <h2 class="h5 mt-3">Bạn chưa có sản phẩm nào</h2>
+        <p class="text-secondary">Hãy thêm sản phẩm đầu tiên để bắt đầu quản lý gian hàng của mình.</p>
+        <a asp-action="Create" class="btn btn-danger">Thêm sản phẩm</a>
+    </div>
+}
+else
+{
+    <div class="table-responsive bg-white rounded-3 shadow-sm p-3">
+        <table class="table align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Danh mục</th>
+                    <th>Giá</th>
+                    <th class="text-end">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in products)
+            {
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center gap-3">
+                            @if (!string.IsNullOrEmpty(item.ImageUrl))
+                            {
+                                <img src="@item.ImageUrl" class="thumb" alt="@item.Name" />
+                            }
+                            <div>
+                                <strong>@item.Name</strong>
+                                <div class="text-secondary small">@item.Description</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>@item.Category?.Name</td>
+                    <td class="fw-bold text-danger">@item.Price.ToString("N0")đ</td>
+                    <td class="text-end">
+                        <div class="btn-group btn-group-sm">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-secondary">Xem</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-danger">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Xóa</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

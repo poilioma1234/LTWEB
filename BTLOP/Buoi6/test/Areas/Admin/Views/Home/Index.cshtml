@@ -1,0 +1,101 @@
+@model test.Models.AdminDashboardViewModel
+
+@{
+    ViewData["Title"] = "Quản trị";
+}
+
+<section class="bg-danger text-white rounded-3 shadow-sm p-4 mb-3">
+    <div class="row g-3 align-items-center">
+        <div class="col-lg">
+            <span class="badge text-bg-light text-danger mb-2">Admin dashboard</span>
+            <h1 class="display-6 fw-bold mb-2">Quản trị QLBanHang</h1>
+            <p class="mb-0 opacity-75">Theo dõi dữ liệu chính và truy cập nhanh các khu vực quản lý theo phong cách shop điện thoại.</p>
+        </div>
+        <div class="col-lg-auto">
+            <a asp-area="" asp-controller="Product" asp-action="Index" class="btn btn-light text-danger fw-semibold">
+                <i class="bi bi-shop"></i>
+                Xem website
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-3 mb-3">
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="admin-icon bg-danger-subtle text-danger"><i class="bi bi-people"></i></div>
+                <div>
+                    <div class="text-secondary small">Tổng user</div>
+                    <div class="h2 fw-bold mb-0">@Model.UserCount</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="admin-icon bg-danger-subtle text-danger"><i class="bi bi-box-seam"></i></div>
+                <div>
+                    <div class="text-secondary small">Product</div>
+                    <div class="h2 fw-bold mb-0">@Model.ProductCount</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="admin-icon bg-danger-subtle text-danger"><i class="bi bi-grid"></i></div>
+                <div>
+                    <div class="text-secondary small">Category</div>
+                    <div class="h2 fw-bold mb-0">@Model.CategoryCount</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="admin-icon bg-danger-subtle text-danger"><i class="bi bi-person-check"></i></div>
+                <div>
+                    <div class="text-secondary small">Product có chủ sở hữu</div>
+                    <div class="h2 fw-bold mb-0">@Model.MemberProductCount</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="row g-3">
+    <div class="col-lg-4">
+        <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="card admin-link-card h-100 border-0 shadow-sm text-decoration-none">
+            <div class="card-body">
+                <i class="bi bi-phone display-6 text-danger"></i>
+                <h2 class="h5 fw-bold mt-3">Quản lý product</h2>
+                <p class="text-secondary mb-3">Xem danh sách, thêm, sửa, xem chi tiết và xóa mọi sản phẩm.</p>
+                <span class="btn btn-outline-danger btn-sm">Mở quản lý product</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4">
+        <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="card admin-link-card h-100 border-0 shadow-sm text-decoration-none">
+            <div class="card-body">
+                <i class="bi bi-tags display-6 text-danger"></i>
+                <h2 class="h5 fw-bold mt-3">Quản lý category</h2>
+                <p class="text-secondary mb-3">Quản lý danh mục và xóa kèm product liên quan khi cần.</p>
+                <span class="btn btn-outline-danger btn-sm">Mở quản lý category</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4">
+        <a asp-area="Admin" asp-controller="User" asp-action="Index" class="card admin-link-card h-100 border-0 shadow-sm text-decoration-none">
+            <div class="card-body">
+                <i class="bi bi-person-gear display-6 text-danger"></i>
+                <h2 class="h5 fw-bold mt-3">Quản lý user</h2>
+                <p class="text-secondary mb-3">Xem thông tin, cập nhật user, đổi role và kiểm tra số product.</p>
+                <span class="btn btn-outline-danger btn-sm">Mở quản lý user</span>
+            </div>
+        </a>
+    </div>
+</section>

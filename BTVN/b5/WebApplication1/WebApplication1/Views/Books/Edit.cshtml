@@ -1,0 +1,26 @@
+@model Book
+
+@{
+    ViewData["Title"] = "Sửa sách";
+    var imageName = string.IsNullOrWhiteSpace(Model.Image) ? "default-book.png" : Model.Image;
+}
+
+<h2 class="page-title">Sửa thông tin sách</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post" class="book-form">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Image" />
+    <div class="current-cover">
+        <span>Ảnh hiện tại</span>
+        <img src="@Url.Content($"~/Content/ImageBooks/{imageName}")" alt="@Model.Title" />
+    </div>
+    <partial name="_BookForm" model="Model" />
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <a class="btn btn-outline-secondary" asp-action="Index">Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

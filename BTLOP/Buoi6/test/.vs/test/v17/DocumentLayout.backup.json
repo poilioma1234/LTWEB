@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\data\\migrations\\20260529035105_themidentitycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:data\\migrations\\20260529035105_themidentitycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\btlop\\buoi6\\test\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{829BC4E1-B32C-432A-8003-E9932AF03BF1}|test.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T03:46:27.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T03:45:31.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T03:42:37.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAYwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:40:25.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:29:22.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswI0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:27:04.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:30:48.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260529035105_ThemIdentityCore.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Data\\Migrations\\20260529035105_ThemIdentityCore.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260529035105_ThemIdentityCore.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Data\\Migrations\\20260529035105_ThemIdentityCore.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260529035105_ThemIdentityCore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:51:05.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-29T03:54:28.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EFCategoryRepository.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\EFCategoryRepository.cs",
+              "RelativeToolTip": "Repository\\EFCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:29:34.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EFProductRepository.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\EFProductRepository.cs",
+              "RelativeToolTip": "Repository\\EFProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:29:13.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:29:03.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:23:42.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-29T03:17:44.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Models\\ProductImage.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\ProductImage.cs",
+              "RelativeToolTip": "Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:23:26.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\BTLOP\\Buoi6\\test\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T03:23:12.286Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

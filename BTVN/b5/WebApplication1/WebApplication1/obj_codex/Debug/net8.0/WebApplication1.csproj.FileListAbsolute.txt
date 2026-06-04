@@ -1,0 +1,10 @@
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\rpswa.dswa.cache.json
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+D:\A. CLASS\DAMH\LTWEB\LTWEB\BTVN\b5\WebApplication1\WebApplication1\obj_codex\Debug\net8.0\WebApplication1.sourcelink.json

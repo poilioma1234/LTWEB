@@ -1,0 +1,62 @@
+@model test.Models.Product
+
+@{
+    ViewData["Title"] = "Xóa product";
+}
+
+<div class="bg-white rounded-3 shadow-sm p-3 mb-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small mb-2">
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item"><a class="link-danger text-decoration-none" asp-action="Index">Product</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Xóa</li>
+        </ol>
+    </nav>
+    <h1 class="h3 fw-bold mb-0">Xóa product</h1>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-8">
+        <div class="card border-danger shadow-sm">
+            <div class="card-header bg-danger text-white fw-bold">
+                <i class="bi bi-exclamation-triangle"></i>
+                Xác nhận xóa product
+            </div>
+            <div class="card-body">
+                <div class="d-flex gap-3">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img src="@Model.ImageUrl" class="thumb-large" alt="@Model.Name" />
+                    }
+                    <div>
+                        <h2 class="h5 fw-bold">@Model.Name</h2>
+                        <div class="text-danger fw-bold">@Model.Price.ToString("N0")đ</div>
+                        <div class="text-secondary">@Model.Category?.Name</div>
+                        <p class="mt-2 mb-0">@Model.Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <div class="alert alert-warning">
+                    Sau khi xóa, product này sẽ không còn hiển thị trên website.
+                </div>
+                <form asp-action="Delete" class="d-grid gap-2">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger btn-lg">
+                        <i class="bi bi-trash"></i>
+                        Xóa product
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i>
+                        Hủy và trở lại
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
