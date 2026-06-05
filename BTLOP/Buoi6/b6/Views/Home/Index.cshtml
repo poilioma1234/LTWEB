@@ -1,0 +1,82 @@
+@model WeatherViewModel
+
+@{
+    ViewData["Title"] = "Dự báo thời tiết";
+}
+
+<section class="weather-hero">
+    <div class="weather-hero__content">
+        <p class="weather-kicker">ASP.NET Core MVC + WeatherAPI</p>
+        <h1>Dự báo thời tiết</h1>
+        <p class="weather-lead">Nhập tên thành phố hoặc tọa độ để xem nhiệt độ hiện tại, độ ẩm, gió và dự báo 5 ngày tiếp theo.</p>
+    </div>
+
+    <form asp-action="Index" method="post" class="weather-search">
+        @Html.AntiForgeryToken()
+        <label asp-for="Query" class="form-label">Thành phố hoặc tọa độ</label>
+        <div class="weather-search__row">
+            <input asp-for="Query" class="form-control form-control-lg" placeholder="Ví dụ: Hà Nội hoặc 21.0285,105.8542" />
+            <button type="submit" class="btn btn-primary btn-lg">Xem dự báo</button>
+        </div>
+        <span asp-validation-for="Query" class="text-danger"></span>
+    </form>
+</section>
+
+@if (!string.IsNullOrWhiteSpace(Model?.ErrorMessage))
+{
+    <div class="alert alert-warning mt-4" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+@if (Model?.Result is not null)
+{
+    <section class="weather-current" aria-label="Thời tiết hiện tại">
+        <div>
+            <p class="weather-kicker">Thời tiết hiện tại</p>
+            <h2>@Model.Result.LocationName</h2>
+            <p class="weather-condition">@Model.Result.Condition</p>
+        </div>
+
+        <div class="weather-current__temperature">
+            @if (!string.IsNullOrWhiteSpace(Model.Result.IconUrl))
+            {
+                <img src="@Model.Result.IconUrl" alt="@Model.Result.Condition" />
+            }
+            <span>@Model.Result.TemperatureC.ToString("0.#")&deg;C</span>
+        </div>
+
+        <div class="weather-stats">
+            <div>
+                <span>Độ ẩm</span>
+                <strong>@Model.Result.Humidity%</strong>
+            </div>
+            <div>
+                <span>Tốc độ gió</span>
+                <strong>@Model.Result.WindKph.ToString("0.#") km/h</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="forecast-section" aria-label="Dự báo nhiều ngày">
+        <h2>Dự báo 5 ngày tiếp theo</h2>
+        <div class="forecast-grid">
+            @foreach (var day in Model.Result.ForecastDays)
+            {
+                <article class="forecast-card">
+                    <time datetime="@day.Date.ToString("yyyy-MM-dd")">@day.Date.ToString("dd/MM/yyyy")</time>
+                    @if (!string.IsNullOrWhiteSpace(day.IconUrl))
+                    {
+                        <img src="@day.IconUrl" alt="@day.Condition" />
+                    }
+                    <strong>@day.MinTemperatureC.ToString("0.#")&deg;C - @day.MaxTemperatureC.ToString("0.#")&deg;C</strong>
+                    <span>@day.Condition</span>
+                </article>
+            }
+        </div>
+    </section>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

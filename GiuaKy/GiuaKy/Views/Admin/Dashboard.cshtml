@@ -1,0 +1,37 @@
+@model GiuaKy.Models.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard Admin";
+}
+
+<div class="d-flex flex-column gap-3">
+    <div>
+        <h1 class="h3 mb-1">Dashboard Admin</h1>
+        <p class="text-muted mb-0">Thống kê tổng quan hệ thống đăng ký học phần.</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+            <thead>
+                <tr>
+                    <th>Chỉ số</th>
+                    <th style="width: 180px;">Giá trị</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tổng số học phần</td>
+                    <td>@Model.TotalCourses</td>
+                </tr>
+                <tr>
+                    <td>Tổng số sinh viên</td>
+                    <td>@Model.TotalStudents</td>
+                </tr>
+                <tr>
+                    <td>Tổng số lượt đăng ký</td>
+                    <td>@Model.TotalEnrollments</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

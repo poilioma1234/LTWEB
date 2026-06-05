@@ -1,0 +1,33 @@
+@model GiuaKy.Models.Course
+
+@{
+    ViewData["Title"] = "Xóa học phần";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <h1 class="h3 mb-3">Xóa học phần</h1>
+        <div class="alert alert-warning">
+            Bạn có chắc muốn xóa học phần này không?
+        </div>
+
+        <div class="border rounded p-3 mb-3">
+            <div class="d-flex gap-3">
+                <img src="@Model.Image" alt="@Model.Name" class="rounded" style="width: 140px; height: 90px; object-fit: cover;" />
+                <div>
+                    <h2 class="h5 mb-2">@Model.Name</h2>
+                    <p class="mb-1"><strong>Số tín chỉ:</strong> @Model.Credits</p>
+                    <p class="mb-1"><strong>Giảng viên:</strong> @Model.Lecturer</p>
+                    <p class="mb-0"><strong>Danh mục:</strong> @Model.Category?.Name</p>
+                </div>
+            </div>
+        </div>
+
+        <form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-danger">Xóa</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

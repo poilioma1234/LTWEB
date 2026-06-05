@@ -1,0 +1,23 @@
+@model GiuaKy.Models.CourseFormViewModel
+
+@{
+    ViewData["Title"] = "Sửa học phần";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <h1 class="h3 mb-3">Sửa học phần</h1>
+
+        <form asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+            @await Html.PartialAsync("_CourseForm", Model)
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Cập nhật</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

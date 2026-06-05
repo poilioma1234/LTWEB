@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\giuaky.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:giuaky.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|d:\\a. class\\damh\\ltweb\\ltweb\\giuaky\\giuaky\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EB28453-5306-426B-A96E-8222AB6F587F}|GiuaKy.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:37:29.269Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-05T02:33:32.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GiuaKy.csproj",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\GiuaKy.csproj",
+              "RelativeDocumentMoniker": "GiuaKy.csproj",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\GiuaKy.csproj",
+              "RelativeToolTip": "GiuaKy.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-05T02:29:28.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T02:04:23.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:44:40.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:43:47.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:43:36.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T01:43:26.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\A. CLASS\\DAMH\\LTWEB\\LTWEB\\GiuaKy\\GiuaKy\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-05T01:34:18.127Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
